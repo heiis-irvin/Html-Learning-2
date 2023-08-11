@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    color: blue;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.banner{
+    width: 100vw;
+}
+
+main{
+    top: 0;
+    background-color: slategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.timeline{
+    background-color: white;
+    padding: 20px;
+    border-radius: 3%;
+    margin: 30px;
+}
